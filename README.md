@@ -7,7 +7,7 @@ A hardware-based 4-bit adder system with multiple registers, debounced button in
   Built from cascading full adders, which themselves use half adders internally. It handles carry propagation and outputs a 4-bit sum and a carry-out.
 
 - **Registers (A, B, and Sum)**  
-  Three separate 4-bit registers controlled by button inputs. You can load operand A, operand B, and then store the result using the center button.
+  Three separate D flip-flop–based 4-bit registers controlled by button inputs. You can load operand A, operand B, and then store the result using the center button.
 
 - **Debounce Module**  
   Each button is debounced to prevent glitches due to mechanical bouncing.
